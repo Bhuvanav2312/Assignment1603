@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8040" started-at="2022-03-16T03:12:27Z" finished-at="2022-03-16T03:12:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8040" started-at="2022-03-16T03:12:27Z" finished-at="2022-03-16T03:12:35Z">
+      <class name="TestProject.Assured.userDetails">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext)[pri:0, instance:TestProject.Assured.userDetails@4386f16]" name="createUser" duration-ms="2521" started-at="2022-03-16T03:12:27Z" finished-at="2022-03-16T03:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dbf57b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteUser(org.testng.ITestContext)[pri:0, instance:TestProject.Assured.userDetails@4386f16]" name="deleteUser" duration-ms="1328" started-at="2022-03-16T03:12:29Z" finished-at="2022-03-16T03:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dbf57b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="updateUser(org.testng.ITestContext)[pri:0, instance:TestProject.Assured.userDetails@4386f16]" name="updateUser" duration-ms="1531" started-at="2022-03-16T03:12:31Z" finished-at="2022-03-16T03:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dbf57b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="userLogin()[pri:0, instance:TestProject.Assured.userDetails@4386f16]" name="userLogin" duration-ms="1367" started-at="2022-03-16T03:12:32Z" finished-at="2022-03-16T03:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="userLogout()[pri:0, instance:TestProject.Assured.userDetails@4386f16]" name="userLogout" duration-ms="1260" started-at="2022-03-16T03:12:34Z" finished-at="2022-03-16T03:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+      </class> <!-- TestProject.Assured.userDetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
